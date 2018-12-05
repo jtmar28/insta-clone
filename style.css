@@ -88,7 +88,6 @@ a .fas.fa-heart:hover{
     background: #fff;
     margin: 0 auto;
     width: 500px;
-    height: 600px;
     border-radius: 3px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -123,4 +122,25 @@ a .fas.fa-heart:hover{
     float: right;
     top: 10px;
     position:relative;
+}
+.card .content img{
+    width: 100%;
+}
+.card .card-footer{
+    padding: 15px;
+}
+.card .card-footer p{
+    margin: 0;
+    font-size: 14px;
+}
+.card .card-footer .description p span{
+    font-weight: 700;
+}
+.card .card-footer .likes{
+    color: #111;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.card .card-footer .comments{
+
 }
