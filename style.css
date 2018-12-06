@@ -103,6 +103,10 @@ a .fas.fa-heart:hover{
     top: 5px;
     margin-right: 5px;
 }
+.card-header .profile-img img{
+    height:30px;
+    border-radius: 50%;
+}
 .card-header .profile-info{
     display: inline-block;
 
@@ -132,6 +136,7 @@ a .fas.fa-heart:hover{
 .card .card-footer p{
     margin: 0;
     font-size: 14px;
+    padding: 0 0 5px 0;
 }
 .card .card-footer .description p span{
     font-weight: 700;
@@ -141,6 +146,42 @@ a .fas.fa-heart:hover{
     font-size: 12px;
     padding-bottom: 15px;
 }
-.card .card-footer .comments{
-
+.card .footer .comments p {
+    margin: 0;
+    font-size: 14px;
+    padding: 0 0 5px 0;
+}
+.card .card-footer .comments p span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.card form .heart{
+    display: inline-block;
+    width:7%;
+}
+.card form .add-comment{
+    display: inline-block;
+    width:60%;
+}
+.card form .add-comment input{
+    width: 100%;
+    padding: 5px;
+    font-weight: 16px;
+    border: 0px solid #fff;
+}
+.card form .options{
+    display: inline-block;
+    width:7%;
+    float:right;
+}
+form{
+    padding-top:15px;
+}
+hr{
+    padding: 0;
+}
+form .fas{
+    font-size: 24px;
+    position: relative;
+    top: 3px;
 }
